@@ -1,5 +1,9 @@
+body{
+	background-color: dimgrey;
+
+}
 h1 {
-	background-color:dimgray;
+	background-color:deepskyblue;
 	text-align: center;
 }
 label {
