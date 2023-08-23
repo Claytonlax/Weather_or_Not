@@ -1,4 +1,4 @@
 # Weather_or_Not
 Module Challenge 6
 
-https://github.com/Claytonlax/Wheather_or_Not
+https://claytonlax.github.io/Weather_or_Not/
