@@ -22,9 +22,9 @@ $('.search').on("click", function (event) {
 });
 
 
-var contHistEl = $('.cityHist');
+var constHistoryEl = $('.cityHist');
 function getHistory() {
-	contHistEl.empty();
+	constHistoryEl.empty();
 
 	for (let i = 0; i < cityHist.length; i++) {
 
@@ -35,7 +35,7 @@ function getHistory() {
 		btnEl.addClass('btn btn-outline-secondary histBtn');
 		btnEl.attr('type', 'button');
 
-		contHistEl.prepend(rowEl);
+		constHistoryEl.prepend(rowEl);
 		rowEl.append(btnEl);
 	} if (!city) {
 		return;
